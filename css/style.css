@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+}
+/*Header start*/
+header{
+    background-color: #121b2a;
+   
+    /*border: 1px solid teal;*/
+
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+    /*border: 1px solid blue;*/
+}
+.logo img{
+
+    width: 100%;
+}
+.menu {
+    float: right;
+    width: 70%;
+    /*border: 1px solid blue*/
+}
+.menu ul{
+
+    float: right;
+}
+
+.menu ul li{
+
+    list-style: none;
+    float: left;
+
+}
+.menu ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: .5s;
+    
+
+}
+.menu ul li a:hover{
+
+    color: #00788d ;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+
+
+/*Header end*//*Banner Start*/
+
+/*banner start*/
+.banner{
+	background-image: url(../img/img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.b_content{
+	margin: 300px 0 150px 0px;
+	width: 40%;
+    color:white
+}
+.b_content p:first-child{
+	
+    font-size: 45px;
+    color: #fff;
+  
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 5px 0px;
+}
+
+.b_content h1{
+	
+     margin: 10px 0;
+     font-size: 50px;
+     color: #0699eb;
+	text-transform: capitalize;
+}
+.b_content p:nth-last-child(2){
+	
+	color: #fff;
+  font-size: 16x;
+  line-height: 1.2;
+
+
+}
+.b_content button{
+	border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: black;
+    width: 40%;
+    transition: 0.3s;
+}
+.b_content button:hover{
+    
+    background-color: #0f2656;
+    color: white;
+}
+/*banner end*/
+/*service start*/
+.service {
+	background-color: #121B2C;
+    color: white;
+    padding: 50px 5px;
+}
+
+
+.single {
+	width: 30%;
+	float: left;
+	margin: 0px 2%;
+    /*border: 1px solid white;*/
+}
+.single:first-child{
+	margin-left: 0px;
+	
+}
+.single:last-child{
+    margin-right: 0;
+}
+
+
+
+.title {
+	overflow: hidden;
+}
+
+.icon {
+	float: left;
+	display: inline-block;
+	width: 20%;
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	float: left;
+
+}
+.icon_content p{
+	font-size: 26px;
+	margin: 0px;
+
+}
+.icon_content h1{
+	margin: 0px;
+	color: #0177bc;
+
+}
+.content p{
+	line-height: 25px;
+}
+/*service end*/
+
+
